@@ -1,0 +1,53 @@
+body{
+    font-family:helvetica,sans-serif;
+    font-size:18px;
+}
+
+.mainContainer{
+    width:1100px;
+    margin:auto;
+}
+
+.mainContainer > img{
+    max-width:100%;
+}
+
+.group{
+    font-size: 1.5em;
+}
+
+.gril{
+    display:grid;
+    grid-template-columns: 15% 200px auto 150px;
+    margin-top:10px;
+    margin-bottom:50px;
+    border-top:solid 1px blue;
+    border-left:solid 1px blue;
+    border-right:solid 1px blue;
+}
+
+.gril .titre{
+    color:white;
+    background-color: yellow;
+    font-size: 1.25em;
+    font-weight:bold;
+    padding:20px 10px 20px 10px;
+}
+
+.gril div{
+    border-bottom:solid 1px black;
+    padding:30px 5px 5px 5px;
+}
+
+.gril div.rank{
+    padding-left:10px;
+}
+
+.gril div.flag{
+    padding:0;
+}
+
+.gril img{
+    width:75px;
+}
+
